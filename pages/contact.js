@@ -1,17 +1,17 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Zoezi</title>
+        <title>Contact | Zoezi</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Zoezi!
+          Contact Zoezi!
         </h1>
       </main>
 
