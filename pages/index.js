@@ -15,6 +15,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to Zoezi!
         </h1>
+        <button className={styles.btn}>Contact Sales</button>
       </main>
 
     </div>
