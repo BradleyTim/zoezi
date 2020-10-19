@@ -57,7 +57,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 80%;
   margin-top: 3rem;
 }
 
@@ -93,6 +93,22 @@
 
 .logo {
   height: 1em;
+}
+
+.btn {
+  margin-top: 2rem;
+  padding: 0.5rem 2rem;
+  font-size: 1.25rem;
+  background-color: #6772E5;
+  color: #F6F9FC;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #7795f8;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
 
 @media (max-width: 600px) {
